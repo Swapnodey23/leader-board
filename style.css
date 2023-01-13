@@ -7,7 +7,7 @@
 header{
     width: 100%;
     height: 60px;
-    background-color: #562EFF;
+    background-color: #4b58a1b0;
     display: flex;
     justify-content: space-between;
 }
@@ -30,9 +30,8 @@ header{
     height: 51px;
 }
 .right-head img{
-    height: 40px;
-    height: 40px;
-    border-radius: 50% ;
+    height: 50px;
+    border-radius: 50%;
 }
 
             /* Player-Blog */
@@ -198,7 +197,7 @@ footer{
     header{
     width: 100%;
     height: 60px;
-    background-color: #3b39d6;
+    background-color: #4b58a1b0;
     }
     .left-head{
         display: flex;
@@ -254,8 +253,8 @@ footer{
     header{
         width: 100%;
         height: 60px;
-        background-color: #3b39d6;
-        }
+        background-color: #4b58a1b0;
+    }
         .left-head{
             display: flex;
             gap: 10px;
