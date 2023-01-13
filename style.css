@@ -45,7 +45,7 @@ main{
     flex-direction: column;
     align-items: center;
 }
-.container-one , .container-two{
+.container-one {
     background-color: #ffffff;
     width: 870px;
     padding: 30px;
@@ -135,6 +135,12 @@ a{
 /* .course-details{
     margin: 0px 0px;
 } */
+.container-two{
+    background-color: #ffffff;
+    width: 870px;
+    padding: 30px;
+    border-radius: 5px;
+}
 .course-title{
     font-size: 19px;
 }
@@ -170,8 +176,20 @@ a{
     border-radius: 14px;
     text-align: center;
 }
-
-
+footer{
+    background-color: #3fc4b2;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    color: rgb(194, 68, 74);
+}
+.ami{
+    color: #c43f91;
+}
                 /* media qurey */
 
                 /* small device */
@@ -195,11 +213,16 @@ a{
         color: white;
         padding-right: 5px;
     }
+    .section-title, .section-title-two{
+        text-align: center;
+    }
     .container-one, .container-two{
         width: 100%;
         background-color: #e3ecf1;
     }
     .players, .all-blogs{
+        display: flex;
+        flex-direction: column;
         grid-template-columns: repeat(1, 1fr);
     }
     .player{
